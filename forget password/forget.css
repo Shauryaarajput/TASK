@@ -1,0 +1,127 @@
+.home{
+    height: 100vh;
+    width: 100%;
+    background-color: violet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.part{
+    height: 450px;
+    width:430px;
+    background-color: white;
+    border-radius: 15px;
+}
+.head {
+    height:110px;
+    width:405px;
+    
+    margin: 10px;
+    text-align:center;
+    
+
+}
+.head h5{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+.section{
+    height:40px;
+    margin: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    
+    margin-bottom: 0px;
+
+
+    
+    
+
+}
+.section .line{
+     background-color: gray;
+     width:100px;
+     height:0px;
+}
+.section .alpha{
+    height: 40px;
+    width:40px;
+    border-radius: 50%;
+    background-color: blue;
+    color: white;
+    font-weight: 700 ;
+    border: none;
+
+}
+.section .beta{
+    height:40px;
+    width:40px;
+    border-radius: 50%;
+    border: none;
+
+}
+.tags{
+    display: flex;
+    justify-content: center;
+    gap:25px;
+    height: 50px;
+    
+}
+.tags h4{
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    font-size: 14px;
+}
+ .one{
+    height:80px;
+    display: flex;
+    flex-direction: column;
+    
+    margin: 30px;
+    margin-top: 5px;
+    gap:10px;
+    margin-bottom: 5px;
+    
+}
+.one label{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+.one input{
+    margin-left: 5px;
+    height: 30px;
+    border-radius: 5px;
+    
+}
+.buttons{
+    display: flex;
+    justify-content: end;
+    padding-right: 20px;
+}
+.buttons button{
+    border: none;
+    background-color: blue;
+    color: white;
+    height:40px;
+    width: 80px;
+    border-radius: 5px;
+}
+hr{
+    margin-top: 30px;
+}
+.part h4{
+    text-align: center;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sign{
+    background-color: transparent;
+    color: blue;
+    border: none;
+    font-weight: 700;
+}
