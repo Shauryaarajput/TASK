@@ -11,6 +11,7 @@
     width:430px;
     background-color: white;
     border-radius: 15px;
+    box-shadow: 2px 2px 2px 2px gray;
 }
 .head {
     height:110px;

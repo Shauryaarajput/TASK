@@ -18,6 +18,7 @@
     width: 380px;
     background-color: white;
     border-radius: 15px;
+    box-shadow: 2px 2px 2px 2px gray;
     
 }
 .head{
@@ -59,17 +60,26 @@
  input{
       
       height:35px;
-      border-radius: 7px;
+     
       border: 2px solid lightgray;
       
 }
 
-.forms .pass{
+ .pass{
     display: flex;
     flex-direction: column;
     gap:8px;
     margin:5px;
     margin-top: 15px;
+    border-radius: 15px;
+    border: 2px solid lightgray;
+    border: none;
+   
+}
+.pass input{
+   
+    border-radius: 7px;
+    border: 2px solid lightgray;
 }
 .forgets{
     height: 30px;
@@ -103,6 +113,18 @@
     border-radius: 7px;
     font-weight: 700;
     border: none;
+    
+
+}
+.signin button:hover{
+   animation-name: shaurya;
+    animation-duration: 4s ;
+    animation-iteration-count: infinite;
+}
+@keyframes shaurya{
+    0%{background-color: blue;}
+    50%{background-color: lightblue;}
+    100%{background-color: blue;}
 }
 .or{
     height:20px;
@@ -151,5 +173,11 @@
     border: none;
     outline: none;
     padding: 0px 10px;
+}
+@media (max-width: 425px) {
+    .sign{
+        width: 90%;
+    
+}
 }
 
